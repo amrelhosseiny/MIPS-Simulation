@@ -1,0 +1,11 @@
+lw $s0 0 ($0)
+lw $s4 4 ($0)
+lw $t0 8 ($0)
+addi $s0 $0 2            
+FOR beq $s0 $0 EXIT  
+Sll $t0 $s0 2              
+add $t0 $t0 $s4             
+sw $t0 8 ($0)
+Addi $s0 $s0 -1
+j FOR
+EXIT

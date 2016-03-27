@@ -1,0 +1,6 @@
+1.Place the "data.txt" and the "ins.txt" in the same directory 
+  as the .v files during simulation to intialize the instruction 
+  memory and the data memory. 
+2.To enter any other program write its machine language in a .txt
+  file where every line contains 8 bits, name it ins.txt and put 
+   it in the same directory of the .v files

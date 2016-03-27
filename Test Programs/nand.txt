@@ -1,0 +1,5 @@
+lw $t1 0 ($0)
+lw $t2 4 ($0)
+addi $s0 $0 $0
+and $t0 $t1 $t2
+nor $t3 $t0 $s0
